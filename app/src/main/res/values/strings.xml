@@ -20,7 +20,7 @@
     <string name="num3_details">Following</string>
     <string name="ui_des">Better UX Better World</string>
     <string name="design">Designer</string>
-    <string name="desc"><font color="@color/black">Bite-Sized learnings from my experience as a</font> <font color="#1565C0">#ux</font></string>
+    <string name="desc"><font color="@color/black">Bite-Sized learnings from my experience as </font> <font color="#1565C0">#ux</font></string>
     <string name="desc2"><font color="#1565C0">#designer</font> <font color="@color/black">for the next generation Product Peeps</font></string>
     <string name="desc3"><font color="@color/black">BUBW Podcast-Spotify...  </font><font color="#FFCCCCCC">more</font> </string>
     <string name="last_link">taplink..cc/ux.bubw</string>
