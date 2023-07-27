@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/margin28"
+    android:padding="@dimen/margin12"
+    android:background="@drawable/layout_border"
+    android:layout_height="@dimen/card_height"
+    tools:context=".Second_Card">
+    <TextView
+        android:id="@+id/details"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/margin42"
+        android:fontFamily="@font/regul"
+        app:layout_constraintHorizontal_bias="0.12"
+        android:text="@string/details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/link"
+        style="@style/text_info"
+        android:drawableStart="@drawable/home"
+        android:text="@string/link"
+        android:layout_marginTop="@dimen/margin42"
+        android:textColor="@color/linkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+        <TextView
+        android:id="@+id/employee"
+        style="@style/second_card"
+        android:drawableStart="@drawable/people"
+        android:text="@string/employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/link"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+    <TextView
+        android:id="@+id/location"
+        style="@style/text_info"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="192dp"
+        android:drawableStart="@drawable/location"
+        android:text="@string/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+    <TextView
+        android:id="@+id/location2"
+        style="@style/text_info"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="@dimen/margin42"
+        android:text="@string/location2"
+        android:textSize="@dimen/text20"
+        android:paddingTop="@dimen/margin6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintTop_toBottomOf="@+id/employee" />
+    <TextView
+        android:id="@+id/note1"
+        style="@style/text_info"
+        android:layout_width="wrap_content"
+        android:text="@string/note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+    <TextView
+        android:id="@+id/note2"
+        style="@style/text_info"
+        android:layout_width="wrap_content"
+        android:text="@string/note2"
+        android:textSize="@dimen/text20"
+        android:paddingTop="@dimen/margin6"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location2" />
+    <TextView
+        android:id="@+id/time"
+        style="@style/text_info"
+        android:layout_width="wrap_content"
+        android:text="@string/time"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
