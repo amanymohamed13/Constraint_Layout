@@ -32,6 +32,14 @@
     </style>
     <style name="second_card" parent="text_info">
         <item name="android:layout_marginTop">@dimen/margin12</item>
-
+    </style>
+    <style name="third_style" parent="text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text20</item>
+    </style>
+    <style name="fourth_style" parent="third_style">
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:drawablePadding">@dimen/margin6</item>
     </style>
 </resources>

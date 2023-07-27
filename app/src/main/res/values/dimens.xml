@@ -20,6 +20,7 @@
     <dimen name="margin36">36dp</dimen>
     <dimen name="margin6">6dp</dimen>
     <dimen name="card_height">400dp</dimen>
+    <dimen name="image_card124">110dp</dimen>
 
 
 </resources>
